@@ -1,0 +1,64 @@
+/* Requirement: CSS selector styling an HTML tag */
+body {
+  font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+  background-color: #f2f4f8;
+  color: #222;
+  margin: 0;
+  line-height: 1.6;
+}
+
+h2 {
+  color: #1f4e79;
+  margin-top: 0;
+}
+
+/* Requirement: id styled */
+#banner {
+  background: linear-gradient(135deg, #1f4e79, #3a7bd5);
+  color: white;
+  text-align: center;
+  padding: 48px 16px;
+}
+
+#banner h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+main {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+/* Requirement: class styled; box model properties (padding, margin, border, width) */
+.card {
+  background-color: white;
+  padding: 24px;
+  margin: 24px 0;
+  border: 2px solid #d0d7e2;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.avatar {
+  float: right;
+  width: 120px;
+  margin: 0 0 12px 16px;
+}
+
+/* Requirement: link color, and color change on hover */
+a {
+  color: #1f4e79;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #e8590c;
+}
+
+footer {
+  text-align: center;
+  padding: 16px;
+  color: #666;
+}
